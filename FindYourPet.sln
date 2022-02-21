@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindYourPet.Domain", "FindYourPet.Domain\FindYourPet.Domain.csproj", "{394EBEDD-17D9-465A-8015-598E8C8BD71C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindYourPet.Infra.Data", "FindYourPet.Infra.Data\FindYourPet.Infra.Data.csproj", "{A24A4610-FA52-46E6-BF56-DA87440BDB2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindYourPet.Infra.Data.Rest", "FindYourPet.Infra.Data.Rest\FindYourPet.Infra.Data.Rest.csproj", "{90ABA6DF-F9BB-4A07-AAAF-C97D2A4BEB6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindYourPet.Infra.CrossCutting", "FindYourPet.Infra.CrossCutting\FindYourPet.Infra.CrossCutting.csproj", "{E68AAE96-151F-4EE6-91FB-64999EB4C508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindYourPet.Service", "FindYourPet.Service\FindYourPet.Service.csproj", "{24670513-A349-4EA4-BFFE-6D87866FA54E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindYourPet.API", "FindYourPet.API\FindYourPet.API.csproj", "{93D4939E-53F9-42F7-884B-338166C4857C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{394EBEDD-17D9-465A-8015-598E8C8BD71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394EBEDD-17D9-465A-8015-598E8C8BD71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394EBEDD-17D9-465A-8015-598E8C8BD71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394EBEDD-17D9-465A-8015-598E8C8BD71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24A4610-FA52-46E6-BF56-DA87440BDB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24A4610-FA52-46E6-BF56-DA87440BDB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24A4610-FA52-46E6-BF56-DA87440BDB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24A4610-FA52-46E6-BF56-DA87440BDB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90ABA6DF-F9BB-4A07-AAAF-C97D2A4BEB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90ABA6DF-F9BB-4A07-AAAF-C97D2A4BEB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90ABA6DF-F9BB-4A07-AAAF-C97D2A4BEB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90ABA6DF-F9BB-4A07-AAAF-C97D2A4BEB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68AAE96-151F-4EE6-91FB-64999EB4C508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68AAE96-151F-4EE6-91FB-64999EB4C508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68AAE96-151F-4EE6-91FB-64999EB4C508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68AAE96-151F-4EE6-91FB-64999EB4C508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24670513-A349-4EA4-BFFE-6D87866FA54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24670513-A349-4EA4-BFFE-6D87866FA54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24670513-A349-4EA4-BFFE-6D87866FA54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24670513-A349-4EA4-BFFE-6D87866FA54E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D4939E-53F9-42F7-884B-338166C4857C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D4939E-53F9-42F7-884B-338166C4857C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D4939E-53F9-42F7-884B-338166C4857C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D4939E-53F9-42F7-884B-338166C4857C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91CE329E-8C9D-40EE-BBD8-078FEFD03CF1}
+	EndGlobalSection
+EndGlobal
