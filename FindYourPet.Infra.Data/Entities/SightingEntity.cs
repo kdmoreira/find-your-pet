@@ -1,4 +1,6 @@
 ﻿using FindYourPet.Domain.Enums;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 using System;
 
 namespace FindYourPet.Infra.Data.Entities
@@ -16,6 +18,8 @@ namespace FindYourPet.Infra.Data.Entities
         public int? Number { get; set; }
         public string Complement { get; set; }
         public string ImageUrl { get; set; }
+
+        [BsonRepresentation(BsonType.Binary)]
         public byte[] Image { get; set; }
         public bool HasBeenFound { get; set; }
         public bool Approved { get; set; }

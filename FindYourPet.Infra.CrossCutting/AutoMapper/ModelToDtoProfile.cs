@@ -2,7 +2,7 @@
 using FindYourPet.Domain.Dtos;
 using FindYourPet.Domain.Models;
 
-namespace FindYourPet.CrossCutting.AutoMapper
+namespace FindYourPet.Infra.CrossCutting.AutoMapper
 {
     public class ModelToDtoProfile : Profile
     {

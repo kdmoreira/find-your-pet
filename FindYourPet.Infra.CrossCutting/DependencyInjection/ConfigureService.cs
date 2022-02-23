@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using FindYourPet.CrossCutting.AutoMapper;
 using FindYourPet.Domain.Interfaces.Services;
+using FindYourPet.Infra.CrossCutting.AutoMapper;
 using FindYourPet.Service.Services;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -17,6 +17,8 @@ namespace FindYourPet.CrossCutting.DependencyInjection
             var mapperConfig = new MapperConfiguration(cfg =>
             {
                 cfg.AddProfile(new ModelToDtoProfile());
+                cfg.AddProfile(new ModelToEntityProfile());
+                cfg.AddProfile(new EntityToModelProfile());
             });
 
             IMapper mapper = mapperConfig.CreateMapper();
